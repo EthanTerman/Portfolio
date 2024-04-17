@@ -1,20 +1,42 @@
 img{
     max-width: 100%;
     display: block; margin: auto;
-    
+    border-color: darkgreen;
+}
+.logo{
+display: block; margin: auto;
+width: 135px;
 }
 h1{
     text-align: center;
+    font-family: "Raleway", sans-serif;
+
 }
 h2{
     text-align: center;
+    font-family: "Raleway", sans-serif
 }
 h3{
     text-align: center;
+    font-family: "Raleway", sans-serif
 }
 nav{
     text-align: center;
+    font-family: "Raleway", sans-serif
+    
 }
 p{
     text-align: center;
+    font-family: "Raleway", sans-serif
+}
+nav a{
+   padding: 5%;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: rgb(94, 160, 94);
+    color: darkgreen;
+    
 }
