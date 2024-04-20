@@ -3,8 +3,14 @@ img{
     display: block; margin: auto;
     border-color: darkgreen, 10px;
 }
-#candy.img{
-    padding: 20%;
+#gallery{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+}
+.column{
+    flex: auto;
 }
 .logo{
 display: block; margin: auto;
@@ -47,10 +53,13 @@ body{
 header{
     background-color: rgb(94, 160, 94);
     color: darkgreen;
-    
 }
 footer{
     background-color: rgb(94, 160, 94);
     color: antiquewhite;
     margin: 0%;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
 }
