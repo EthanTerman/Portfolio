@@ -3,12 +3,6 @@ img{
     display: block; margin: auto;
     border-color: darkgreen, 10px;
 }
-#gallery{
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 10px;
-        padding: 10px;
-}
 .column{
     flex: auto;
 }
@@ -41,6 +35,8 @@ nav{
 p{
     text-align: center;
     font-family: "Raleway", sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 nav a{
    padding: 5%;
@@ -52,14 +48,28 @@ body{
 }
 header{
     background-color: rgb(94, 160, 94);
-    color: darkgreen;
+    color: white;
 }
 footer{
     background-color: rgb(94, 160, 94);
     color: antiquewhite;
     margin: 0%;
+    padding: .5rem;
 }
 ul{
     text-align: center;
     list-style-type: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.grid-item {
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+.grid-item img {
+    max-width: 100%; 
 }
